@@ -12,10 +12,18 @@ import com.google.common.base.Predicates;
 @EnableSwagger2
 open class SwaggerConfig {
 	
+//	@Bean
+//    fun api(): Docket = Docket(DocumentationType.SWAGGER_2)
+//	.select()
+//	.apis(Predicates.not(RequestHandlerSelectors.basePackage("org.springframework.boot")))
+//	.build()
+	
 	@Bean
-    open fun api(): Docket = Docket(DocumentationType.SWAGGER_2)
+    fun api(): Docket {
+		return Docket(DocumentationType.SWAGGER_2)
 	.select()
 	.apis(Predicates.not(RequestHandlerSelectors.basePackage("org.springframework.boot")))
 	.build()
+	}
 	
 }
