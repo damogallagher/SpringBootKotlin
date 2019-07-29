@@ -1,6 +1,6 @@
 package com.kotlin.springboot.kotlindemo
 
-import com.kotlin.springboot.kotlindemo.dto.HelloDto
+
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
 import org.junit.Test
@@ -10,6 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.boot.test.web.client.TestRestTemplate
 import org.springframework.http.HttpStatus
 import org.springframework.test.context.junit4.SpringRunner
+import com.kotlin.springboot.kotlindemo.dto.HelloDto
 
 @RunWith(SpringRunner::class)
 @SpringBootTest(

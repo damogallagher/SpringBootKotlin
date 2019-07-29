@@ -10,7 +10,7 @@ import springfox.documentation.builders.PathSelectors
 import com.google.common.base.Predicates;
 @Configuration
 @EnableSwagger2
-open class SwaggerConfig {
+class SwaggerConfig {
 	
 //	@Bean
 //    fun api(): Docket = Docket(DocumentationType.SWAGGER_2)
