@@ -21,7 +21,7 @@
 		<kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget> 
 		<maven.test.skip>true</maven.test.skip>
 		<springfox-swagger2-version>2.9.2</springfox-swagger2-version>
-		<springfox-swagger-ui-version>2.9.2</springfox-swagger-ui-version>
+		<springfox-swagger-ui-version>2.10.0</springfox-swagger-ui-version>
 		<!-- <kotlin.compiler.languageVersion>1.0</kotlin.compiler.languageVersion> 
 			<kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget> 
 			<kotlin.compiler.incremental>true</kotlin.compiler.incremental> -->
